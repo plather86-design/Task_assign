@@ -1,16 +1,54 @@
-# React + Vite
+# EMS – Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EMS (Employee Management System) is a **React-based web application** that helps manage employees and their assigned tasks using an **Admin Panel** and an **Employee Panel**.
 
-Currently, two official plugins are available:
+This project works without a backend and uses **Browser Local Storage** along with a **JSON file** for data persistence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 👨‍💼 Admin Panel
+- Add new employees
+- Assign tasks to employees
+- Manage employee task data
 
-## Expanding the ESLint configuration
+### 👨‍💻 Employee Panel
+- View assigned tasks
+- Access personal task-related information
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💾 Data Persistence
+
+- All data is stored in **Browser Local Storage**
+- When the project is opened in a **new browser**:
+  - Initial data is loaded from a **JSON file**
+  - That data is then saved into local storage automatically
+- This allows the app to function without any backend or database
+
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Browser Local Storage
+- JSON (for initial data)
+
+---
+
+## ▶️ Getting Started
+
+### Prerequisites
+- Node.js
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/EMS.git
+cd EMS
+npm install
