@@ -1,8 +1,8 @@
 # EMS – Employee Management System
 
-EMS (Employee Management System) is a **React-based web application** that helps manage employees and their assigned tasks using an **Admin Panel** and an **Employee Panel**.
+EMS (Employee Management System) is a **React-based web application** designed to manage employees and their tasks through an **Admin Panel** and an **Employee Panel**.  
 
-This project works without a backend and uses **Browser Local Storage** along with a **JSON file** for data persistence.
+The app works without a backend and uses **Browser Local Storage** with a **JSON file** for initial data persistence.
 
 ---
 
@@ -11,21 +11,22 @@ This project works without a backend and uses **Browser Local Storage** along wi
 ### 👨‍💼 Admin Panel
 - Add new employees
 - Assign tasks to employees
-- Manage employee task data
+- Manage and view employee task data
 
 ### 👨‍💻 Employee Panel
 - View assigned tasks
-- Access personal task-related information
+- **Accept tasks** before taking action
+- Once a task is accepted, two options become available:
+  - **Complete Task**
+  - **Mark as Failed**
 
 ---
 
 ## 💾 Data Persistence
 
 - All data is stored in **Browser Local Storage**
-- When the project is opened in a **new browser**:
-  - Initial data is loaded from a **JSON file**
-  - That data is then saved into local storage automatically
-- This allows the app to function without any backend or database
+- When opened in a **new browser**, initial data is loaded from a **JSON file**
+- Data is then automatically saved to local storage, allowing the app to function **without a backend**
 
 ---
 
